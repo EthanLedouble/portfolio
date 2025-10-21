@@ -1,0 +1,21 @@
+.App {
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: 'Montserrat', 'Preahvihear', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #010101;
+
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
