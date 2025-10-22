@@ -27,7 +27,7 @@ function ProfessionalExperience() {
         transition={{ duration: 0.5 }}
       >
         <div className="experience-logo">
-          <img src="/images/ministere-logo.png" alt="Ministère des Armées" />
+          <img src={`${process.env.PUBLIC_URL}/images/ministere-logo.png`} alt="Ministère des Armées" />
         </div>
         <div className="experience-content">
           <h3 className="experience-title">Stage de deuxième année post-bac</h3>
@@ -42,7 +42,7 @@ function ProfessionalExperience() {
             whileTap={{ scale: 0.9 }}
             onClick={openModal}
           >
-            <img src="/images/Send.png" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/images/Send.png`} alt="" />
           </motion.button>
         </div>
       </motion.div>
@@ -69,7 +69,7 @@ function ProfessionalExperience() {
               
               <div className="modal-header">
                 <div className="modal-logo">
-                  <img src="/images/ministere-logo.png" alt="Ministère des Armées" />
+                  <img src={`${process.env.PUBLIC_URL}/images/ministere-logo.png`} alt="Ministère des Armées" />
                 </div>
                 <div className="modal-title-section">
                   <h3 className="modal-title">Stage de deuxième année post-bac</h3>

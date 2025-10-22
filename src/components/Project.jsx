@@ -7,19 +7,19 @@ function Project() {
     {
       title: 'Jobboarding',
       description: 'Angular - FastAPI - postgreSQL',
-      image: '/images/idylleimage.png',
+      image: `${process.env.PUBLIC_URL}/images/idylleimage.png`,
       link: 'https://github.com/EthanLedouble/Jobboarding'
     },
     {
       title: 'Back2Fest',
       description: 'React Native - Firebase database',
-      image: '/images/firewaveimage.png',
+      image: `${process.env.PUBLIC_URL}/images/firewaveimage.png`,
       link: 'https://github.com/RomainConte/Back2Fest'
     },
     {
       title: 'Site internet idylle',
       description: 'Wordpress',
-      image: '/images/jobboardimage.png',
+      image: `${process.env.PUBLIC_URL}/images/jobboardimage.png`,
       link: 'https://github.com/EthanLedouble/Jobboarding'
     }
   ];
@@ -57,7 +57,7 @@ function Project() {
                 whileTap={{ scale: 0.9 }}
                 onClick={() => window.open(project.link, '_blank')}
               >
-                <img src="/images/Send.png" alt="" />
+                <img src={`${process.env.PUBLIC_URL}/images/Send.png`} alt="" />
               </motion.button>
             </div>
           </motion.div>

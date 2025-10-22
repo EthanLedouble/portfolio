@@ -21,7 +21,7 @@ function Header() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, delay: 0.4 }}
       >
-        <img src="/images/MOIimage.png" alt="Ethan Ledouble" />
+        <img src={`${process.env.PUBLIC_URL}/images/MOIimage.png`} alt="Ethan Ledouble" />
       </motion.div>
     </header>
   );

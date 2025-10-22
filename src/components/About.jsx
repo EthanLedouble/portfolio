@@ -37,7 +37,7 @@ function About() {
           className="cv-button"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          onClick={() => window.open('/images/CV_LEDOUBLE_ETHAN.pdf', '_blank')}
+          onClick={() => window.open(`${process.env.PUBLIC_URL}/images/CV_LEDOUBLE_ETHAN.pdf`, '_blank')}
         >
           Télécharger le cv
         </motion.button>
